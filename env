@@ -1,0 +1,30 @@
+#--------------------------------------------------------------------
+# ENVIRONMENT
+#--------------------------------------------------------------------
+CI_ENVIRONMENT = production
+
+#--------------------------------------------------------------------
+# APP
+#--------------------------------------------------------------------
+app.baseURL = 'https://e-ujian.mtsn1mesui.sch.id/'
+app.forceGlobalSecureRequests = false
+app.sessionDriver = 'CodeIgniter\Session\Handlers\DatabaseHandler'
+app.sessionCookieName = 'cbt_session'
+app.sessionExpiration = 7200
+app.sessionSavePath = 'ci_sessions'
+app.sessionMatchIP = false
+app.sessionTimeToUpdate = 300
+app.sessionRegenerateDestroy = false
+
+#--------------------------------------------------------------------
+# DATABASE
+#--------------------------------------------------------------------
+database.default.hostname = localhost
+database.default.database = eujian
+database.default.username = eujian
+database.default.password = eujian
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =
+database.default.port = 3306
+database.default.charset = utf8mb4
+database.default.DBCollat = utf8mb4_unicode_ci
